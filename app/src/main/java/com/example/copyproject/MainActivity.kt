@@ -1,7 +1,7 @@
 package com.example.copyproject
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -12,7 +12,25 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         tvSimple.setOnClickListener {
-            Toast.makeText(this, "Click", Toast.LENGTH_SHORT).show()
+            Intent(this, SimpleActivity::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        tvGoogleDetail.setOnClickListener {
+
+        }
+
+        tvMaterialProfile.setOnClickListener {
+
+        }
+
+        tvFlexibleSpace.setOnClickListener {
+
+        }
+
+        tvSwipeExample.setOnClickListener {
+
         }
     }
 }
