@@ -11,24 +11,42 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        onSimpleClick()
+        onGoogleDetailClick()
+        onMaterialClick()
+        onFlexibleClick()
+        onSwipeClick()
+    }
+
+    private fun onSimpleClick() {
         tvSimple.setOnClickListener {
             Intent(this, SimpleActivity::class.java).also {
                 startActivity(it)
             }
         }
+    }
 
+    private fun onGoogleDetailClick() {
         tvGoogleDetail.setOnClickListener {
-
+            Intent(this, GoogleDetailActivity::class.java).also {
+                startActivity(it)
+            }
         }
+    }
 
+    private fun onMaterialClick() {
         tvMaterialProfile.setOnClickListener {
 
         }
+    }
 
+    private fun onFlexibleClick() {
         tvFlexibleSpace.setOnClickListener {
 
         }
+    }
 
+    private fun onSwipeClick() {
         tvSwipeExample.setOnClickListener {
 
         }

@@ -23,18 +23,23 @@
 
     <style name="TextAppearance.Item">
         <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:textSize">@dimen/sixteen_sp</item>
+        <item name="android:textSize">@dimen/sp_16</item>
         <item name="android:textColor">@color/primaryText</item>
     </style>
 
     <style name="TextComponent" />
 
     <style name="TextComponent.ItemRow">
-        <item name="android:minHeight">@dimen/forty_eight_dp</item>
+        <item name="android:minHeight">@dimen/dp_48</item>
     </style>
 
     <style name="TextComponent.ItemRow.Selectable">
         <item name="android:clickable">true</item>
+    </style>
+
+    <style name="TextAppearance.Simple">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">@dimen/dp_20</item>
     </style>
 
 </resources>
