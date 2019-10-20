@@ -15,10 +15,26 @@
     <style name="TextAppearance"
         parent="TextAppearance.AppCompat" />
 
-    <style name="TextAppearance.AboutHeaderStyle">
+    <style name="TextAppearance.Header">
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.Item">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/sixteen_sp</item>
+        <item name="android:textColor">@color/primaryText</item>
+    </style>
+
+    <style name="TextComponent" />
+
+    <style name="TextComponent.ItemRow">
+        <item name="android:minHeight">@dimen/forty_eight_dp</item>
+    </style>
+
+    <style name="TextComponent.ItemRow.Selectable">
+        <item name="android:clickable">true</item>
     </style>
 
 </resources>

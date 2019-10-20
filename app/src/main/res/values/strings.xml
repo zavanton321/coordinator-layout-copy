@@ -11,4 +11,9 @@
 
 		\n\n Enjoy
     </string>
+    <string name="examples">Examples</string>
+    <string name="simple_coordinator_example">Simple Coordinator Example</string>
+    <string name="google_io_detail_example">Google IO Detail Example</string>
+    <string name="material_up_profile_example">Material Up Profile Example</string>
+    <string name="flexible_space_example">Flexible Space Example</string>
 </resources>

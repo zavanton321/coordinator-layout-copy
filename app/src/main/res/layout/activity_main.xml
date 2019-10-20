@@ -41,8 +41,8 @@
                 android:id="@+id/vCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                app:contentPadding="8dp"
+                android:layout_margin="@dimen/eight_dp"
+                app:contentPadding="@dimen/eight_dp"
                 >
 
                 <LinearLayout
@@ -54,15 +54,15 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
+                        android:layout_marginBottom="@dimen/eight_dp"
                         android:text="@string/header_about"
-                        android:textAppearance="@style/TextAppearance.AboutHeaderStyle"
+                        android:textAppearance="@style/TextAppearance.Header"
                         />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:lineSpacingExtra="4dp"
+                        android:lineSpacingExtra="@dimen/four_dp"
                         android:text="@string/about_content"
                         />
 
@@ -71,11 +71,88 @@
 
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/eight_dp"
+                app:contentPadding="@dimen/eight_dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/examples"
+                        android:layout_marginBottom="@dimen/sixteen_dp"
+                        android:textAppearance="@style/TextAppearance.Header"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvSimple"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/ic_arrow_forward"
+                        android:text="@string/simple_coordinator_example"
+                        android:textAppearance="@style/TextAppearance.Item"
+                        style="@style/TextComponent.ItemRow.Selectable"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvGoogleDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/ic_arrow_forward"
+                        android:text="@string/google_io_detail_example"
+                        android:textAppearance="@style/TextAppearance.Item"
+                        style="@style/TextComponent.ItemRow.Selectable"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvMaterialProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/ic_arrow_forward"
+                        android:text="@string/material_up_profile_example"
+                        android:textAppearance="@style/TextAppearance.Item"
+                        style="@style/TextComponent.ItemRow.Selectable"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvFlexibleSpace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/ic_arrow_forward"
+                        android:text="@string/flexible_space_example"
+                        android:textAppearance="@style/TextAppearance.Item"
+                        style="@style/TextComponent.ItemRow.Selectable"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvSwipeExample"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/ic_arrow_forward"
+                        android:text="Swipe Behavior Example"
+                        android:textAppearance="@style/TextAppearance.Item"
+                        style="@style/TextComponent.ItemRow.Selectable"
+
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
-
     </ScrollView>
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

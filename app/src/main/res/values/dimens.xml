@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    General dimensions    -->
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="forty_eight_dp">48dp</dimen>
+
+    <!--    Text dimensions   -->
+    <dimen name="sixteen_sp">16sp</dimen>
+</resources>
