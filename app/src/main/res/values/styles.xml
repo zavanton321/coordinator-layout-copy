@@ -46,4 +46,8 @@
         <item name="navigationIcon">@drawable/ic_keyboard_arrow_left</item>
     </style>
 
+    <style name="CustomStyle">
+        <item name="android:textSize">40sp</item>
+    </style>
+
 </resources>

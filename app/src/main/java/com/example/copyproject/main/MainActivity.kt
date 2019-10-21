@@ -8,6 +8,7 @@ import com.example.copyproject.detail.GoogleDetailActivity
 import com.example.copyproject.flexible.FlexibleActivity
 import com.example.copyproject.profile.ProfileActivity
 import com.example.copyproject.simple.SimpleActivity
+import com.example.copyproject.swipe.SwipeActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -57,7 +58,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun onSwipeClick() {
         tvSwipeExample.setOnClickListener {
-
+            Intent(this, SwipeActivity::class.java).also {
+                startActivity(it)
+            }
         }
     }
 }

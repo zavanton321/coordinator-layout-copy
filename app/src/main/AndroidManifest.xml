@@ -14,7 +14,8 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning"
         >
-        <activity android:name=".flexible.FlexibleActivity"></activity>
+        <activity android:name=".swipe.SwipeActivity"></activity>
+        <activity android:name=".flexible.FlexibleActivity" />
         <activity android:name=".profile.ProfileActivity" />
         <activity android:name=".main.MainActivity">
             <intent-filter>
