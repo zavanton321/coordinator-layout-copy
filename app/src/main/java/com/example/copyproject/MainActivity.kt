@@ -36,7 +36,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun onMaterialClick() {
         tvMaterialProfile.setOnClickListener {
-
+            Intent(this, ProfileActivity::class.java).also {
+                startActivity(it)
+            }
         }
     }
 

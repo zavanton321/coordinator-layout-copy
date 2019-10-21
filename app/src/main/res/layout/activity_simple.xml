@@ -11,7 +11,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/vAppBarLayout"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_320"
+        android:layout_height="@dimen/size_320dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         >
 
@@ -21,7 +21,7 @@
             android:layout_height="match_parent"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleMarginEnd="48dp"
-            app:expandedTitleMarginStart="@dimen/dp_82"
+            app:expandedTitleMarginStart="@dimen/size_82dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:title="@string/simple_activity"
             >
@@ -51,7 +51,7 @@
         android:id="@+id/vFab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginEnd="@dimen/size_16dp"
         android:src="@drawable/ic_add"
         app:layout_anchor="@id/vAppBarLayout"
         app:layout_anchorGravity="bottom|end"
@@ -68,8 +68,8 @@
             android:id="@+id/tvSimpleContent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:lineSpacingExtra="@dimen/dp_8"
-            android:padding="@dimen/dp_16"
+            android:lineSpacingExtra="@dimen/size_8dp"
+            android:padding="@dimen/size_16dp"
             android:text="@string/simple_content"
             android:textAppearance="@style/TextAppearance.Simple"
             />

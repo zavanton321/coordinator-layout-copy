@@ -23,14 +23,14 @@
 
     <style name="TextAppearance.Item">
         <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textSize">@dimen/size_16sp</item>
         <item name="android:textColor">@color/primaryText</item>
     </style>
 
     <style name="TextComponent" />
 
     <style name="TextComponent.ItemRow">
-        <item name="android:minHeight">@dimen/dp_48</item>
+        <item name="android:minHeight">@dimen/size_48dp</item>
     </style>
 
     <style name="TextComponent.ItemRow.Selectable">
@@ -39,7 +39,11 @@
 
     <style name="TextAppearance.Simple">
         <item name="android:textColor">@color/secondaryText</item>
-        <item name="android:textSize">@dimen/dp_20</item>
+        <item name="android:textSize">@dimen/size_20sp</item>
+    </style>
+
+    <style name="ToolbarWithNavigationBack">
+        <item name="navigationIcon">@drawable/ic_keyboard_arrow_left</item>
     </style>
 
 </resources>
