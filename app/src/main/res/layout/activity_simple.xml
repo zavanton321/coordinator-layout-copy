@@ -70,7 +70,7 @@
             android:layout_height="match_parent"
             android:lineSpacingExtra="@dimen/size_8dp"
             android:padding="@dimen/size_16dp"
-            android:text="@string/simple_content"
+            android:text="@string/lorem_ipsum"
             android:textAppearance="@style/TextAppearance.Simple"
             />
 
