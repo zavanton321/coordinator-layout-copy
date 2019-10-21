@@ -1,8 +1,9 @@
-package com.example.copyproject
+package com.example.copyproject.detail
 
 import android.os.Bundle
 import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
+import com.example.copyproject.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class GoogleDetailActivity : AppCompatActivity() {

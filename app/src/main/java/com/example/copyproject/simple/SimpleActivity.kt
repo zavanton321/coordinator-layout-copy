@@ -1,10 +1,11 @@
-package com.example.copyproject
+package com.example.copyproject.simple
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import com.example.copyproject.R
 import kotlinx.android.synthetic.main.activity_simple.*
 
 class SimpleActivity : AppCompatActivity() {

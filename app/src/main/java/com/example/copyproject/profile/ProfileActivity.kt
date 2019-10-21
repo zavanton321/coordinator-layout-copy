@@ -1,4 +1,4 @@
-package com.example.copyproject
+package com.example.copyproject.profile
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
+import com.example.copyproject.R
 import com.google.android.material.appbar.AppBarLayout
 import kotlinx.android.synthetic.main.activity_profile.*
 import kotlin.math.abs
@@ -52,7 +53,8 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun setupTabs() {
-        vViewPager.adapter = CustomAdapter(supportFragmentManager)
+        vViewPager.adapter =
+            CustomAdapter(supportFragmentManager)
         vTabLayout.setupWithViewPager(vViewPager)
     }
 
@@ -94,9 +96,11 @@ class ProfileActivity : AppCompatActivity() {
             private const val NUM_OF_FRAGMENTS = 2
         }
 
-        override fun getItem(position: Int): Fragment = PlaceHolderFragment.newInstance()
+        override fun getItem(position: Int): Fragment =
+            PlaceHolderFragment.newInstance()
 
-        override fun getCount(): Int = NUM_OF_FRAGMENTS
+        override fun getCount(): Int =
+            NUM_OF_FRAGMENTS
 
         override fun getPageTitle(position: Int): CharSequence? = "Fragment $position"
     }
